@@ -3,7 +3,7 @@
  */
 import backpack from "./backpack.js";
 
-const markup = (backpack) => {
+const markup = backpack => {
   return `
   <div>
     <h3>${backpack.name}</h3>
